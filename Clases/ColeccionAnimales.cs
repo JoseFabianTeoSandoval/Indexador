@@ -22,7 +22,7 @@ namespace Indexador.Clases
                 if (indice < 0 || indice >= animales.Length)
                 {
                     throw new IndexOutOfRangeException("Índice fuera de rango.");
-                }
+                } 
 
                 return animales[indice];
             }
